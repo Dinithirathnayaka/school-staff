@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kanit:wght@500&display=swap");
+/* font family */
+.font-def {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-b {
+  font-weight: 500;
+}
+
+/* contact bar + navigation bar */
+.header-bar {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.contact-bar {
+  padding: 0px;
+}
+
+.contact-bar .contact-bar-item {
+  display: inline;
+}
+
+.contact-bar .contact-bar-middle {
+  display: inline-block;
+  text-align: left;
+  margin: 0px 20px;
+}
+
+.contact-bar .contact-bar-icon {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-right: 10px;
+  color: #0d6efd;
+}
+
+.contact-bar .contact-bar-details {
+  display: inline-block;
+}
+
+.contact-bar .contact-bar-details:hover {
+  color: #0d6efd;
+}
+
+/* main image */
+.main-imageDiv {
+  /* background-color: #0d6efd; */
+  height: 400px;
+  background-image: url("img/school_load_image.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.main-imageDiv .bg-image-filter {
+  height: 100px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.main-imageDiv .bg-image-filter {
+  height: 100px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.main-imageDiv .main-overflow {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  z-index: 1;
+}
+
+.main-imageDiv .main-overflow .font-def {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+  margin-top: 2%;
+}
+
+.container .inner {
+  overflow: hidden;
+}
+
+.container .inner img {
+  -webkit-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+
+.container .inner:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container .fa {
+  padding-left: 2%;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.container .fa:hover {
+  opacity: 0.7;
+  color: #0d6efd;
+}
+
+.container h4:hover {
+  color: #0d6efd;
+}
+
+.container #Position {
+  color: #0d6efd;
+  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1;
+}
+
+/* footer section */
+#footer-section {
+  width: 80%;
+  background-color: #212529;
+  margin: 0 auto;
+}
+
+.footer-font {
+  color: #fff;
+}
+
+.footer-font .sm-icons i {
+  font-size: 1.4rem;
+  padding: 30px 5px 0 5px;
+}
+
+.footer-font .sm-icons i:hover {
+  color: #fff;
+}
+
+.footer-font .addAndTel {
+  width: 80%;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.footer-font .addAndTel .footer-tel {
+  padding: 0 10%;
+}
+
+.footer-font .addAndTel .footer-tel .footer-details {
+  display: inline-block;
+}
+
+.footer-font .addAndTel .footer-tel .footer-details:hover {
+  color: #0d6efd;
+}
+
+.footer-font .addAndTel .footer-details {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
